@@ -2,7 +2,7 @@
 This program requires ffmpeg to be installed on your device, also other related libraries.
 
 Features:
-1. Convert file type or rotate multiple video just few simple click. Instead of convert it one by one. 
+1. Convert file type and/or rotate multiple video just few simple click. Instead of convert it one by one. 
 2. The current version only support video to video. Other conversion is not tested. 
 3. The conversion preserve the original quality. (Well, if you want to convert to something else... Wrong place)
 
