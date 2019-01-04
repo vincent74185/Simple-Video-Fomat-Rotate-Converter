@@ -1,6 +1,10 @@
 # Simple-Video-Fomat-Rotate-Converter
 This is a python program that can convert your video file format and rotate the video. For example, mp4 to mkv, rotate your video 90, 180, and 270 degree clockwise. 
 
+System Requirement:
+1. Python working environment
+2. ffmpeg installed envrionment
+
 Features:
 1. Convert file type and/or rotate multiple video just few simple click. Instead of convert it one by one. 
 2. The current version only support video to video. Other conversion is not tested. 
