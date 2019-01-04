@@ -189,11 +189,7 @@ class RotateVideo:
         self.InputFilesButton = Button(self.window,width=15, text="Select Files", command=self.InputFilesButtonClicked)
         self.InputFilesButton.grid(column=1, row=2)
         self.InputFolderSelect.invoke()
-        # Testing
-        # self.InputFolderLabel.insert(0,"F:/Drive D/V/BJ/Input")
-        # self.InputFilesSelect.invoke()
-        # #Testing
-        # self.InputFilesLabel.insert(0,"('F:/Drive D/V/BJ/Input/[4K][직캠 Fancam] 170825 걸크러쉬(Girl Crush) (보미) Fever @ 안지랑곱창 곱페스티벌.mp4',)")
+       
 
         self.RotateLabel = Label(self.window, text="Rotate Clockwise")
         self.RotateLabel.grid(column=0, row=3)
@@ -225,8 +221,7 @@ class RotateVideo:
         self.OutputFolderButton = Button(self.window, width=15, text="Select Folder",
                                         command=self.OutputFolderButtonClicked)
         self.OutputFolderButton.grid(column=1, row=6)
-        # Testing
-        # self.OutputFolderLabel.insert(0,"F:/Drive D/V/BJ/Converted")
+
 
         self.StartLabel = Label(self.window, width=30, text="Start By Clicking the Start Button")
         self.StartLabel.grid(column=0, row=7)
