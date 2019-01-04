@@ -159,7 +159,7 @@ class RotateVideo:
                         os.system(command)
                     except Exception as e:
                         messagebox.showerror('Error', e)
-                        messagebox.showinfo('Info', 'Conversion is completed')
+                messagebox.showinfo('Info', 'Conversion is completed')
 
 
     def __init__(self):
